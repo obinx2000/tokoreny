@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Toko Bu Reny - Kebutuhan Harian</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">Toko Bu Reny</div>
+
+    <nav class="navbar">
+        <a href="#home">Beranda</a>
+        <a href="#kategori">Kategori</a>
+        <a href="#produk">Produk</a>
+        <a href="#lokasi">Lokasi</a>
+    </nav>
+
+    <a href="https://wa.me/6281234567890" class="btn-wa">WhatsApp</a>
+</header>
+
+<main>
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="label">Toko Kelontong Harian</p>
+            <h1>Belanja kebutuhan rumah jadi lebih mudah</h1>
+            <p>
+                Tersedia sembako, mie instan, minuman, sabun, gas, galon,
+                dan kebutuhan harian lainnya.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#produk" class="btn-primary">Lihat Produk</a>
+                <a href="https://wa.me/6281234567890" class="btn-secondary">Pesan Sekarang</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="./assets/images/hero/toko-hero.jpg.png" alt="Toko kelontong">
+        </div>
+    </section>
+
+    <section class="kategori" id="kategori">
+        <h2>Kategori Produk</h2>
+        <p>Pilih kebutuhan harian berdasarkan kategori.</p>
+
+        <div class="kategori-grid">
+            <div class="kategori-card">
+                <h3>Sembako</h3>
+            </div>
+
+            <div class="kategori-card">
+                <h3>Makanan Instan</h3>
+            </div>
+
+            <div class="kategori-card">
+                <h3>Minuman</h3>
+            </div>
+
+            <div class="kategori-card">
+                <h3>Sabun & Deterjen</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="produk" id="produk">
+        <h2>Produk Pilihan</h2>
+        <p>Harga bisa berubah sewaktu-waktu. Silakan konfirmasi via WhatsApp.</p>
+
+        <div class="filter-buttons">
+            <button data-kategori="Semua">Semua</button>
+            <button data-kategori="Sembako">Sembako</button>
+            <button data-kategori="Makanan Instan">Makanan Instan</button>
+            <button data-kategori="Minuman">Minuman</button>
+        </div>
+
+        <div class="produk-grid" id="produkGrid"></div>
+    </section>
+
+    <section class="lokasi" id="lokasi">
+        <h2>Lokasi & Jam Buka</h2>
+
+        <div class="lokasi-box">
+            <p><strong>Alamat:</strong> Jl. Argopuro X No 1</p>
+            <p><strong>Jam buka:</strong> Setiap hari, 06.00 - 21.00</p>
+            <p><strong>WhatsApp:</strong> +62 812-3543-2657</p>
+
+            <a href="#" class="btn-primary">Lihat di Google Maps</a>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 Toko Bu Reny. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>

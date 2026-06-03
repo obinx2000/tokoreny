@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f6f1;
+    color: #222;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    width: 100%;
+    padding: 16px 8%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2f7d32;
+}
+
+.navbar {
+    display: flex;
+    gap: 24px;
+}
+
+.navbar a {
+    font-weight: 600;
+}
+
+.btn-wa,
+.btn-primary,
+.btn-secondary,
+.btn-produk {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-wa,
+.btn-primary,
+.btn-produk {
+    background-color: #2f7d32;
+    color: white;
+}
+
+.btn-secondary {
+    border: 2px solid #2f7d32;
+    color: #2f7d32;
+}
+
+.hero {
+    padding: 70px 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.label {
+    color: #2f7d32;
+    font-weight: bold;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.hero-image img {
+    border-radius: 20px;
+}
+
+.kategori,
+.produk,
+.lokasi {
+    padding: 60px 8%;
+}
+
+.kategori h2,
+.produk h2,
+.lokasi h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.kategori-grid,
+.produk-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.kategori-card,
+.produk-card,
+.lokasi-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+.produk-card {
+    position: relative;
+}
+
+.produk-card img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 14px;
+}
+
+.badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: crimson;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.harga {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2f7d32;
+    margin: 10px 0;
+}
+
+.filter-buttons {
+    margin-top: 24px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.filter-buttons button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 999px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.filter-buttons button:hover {
+    background-color: #2f7d32;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 24px;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+/*Responsive HP*/
+/*===================================*/
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 40px 6%;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .kategori,
+    .produk,
+    .lokasi {
+        padding: 40px 6%;
+    }
+
+    .kategori-grid,
+    .produk-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .kategori-grid,
+    .produk-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .btn-wa {
+        width: 100%;
+        text-align: center;
+    }
+}
