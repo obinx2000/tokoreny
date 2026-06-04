@@ -1,7 +1,7 @@
 const products = [
     {
         kode: "BR001",
-        nama: "Beras Premium 5kg",
+        nama: "Beras Kepompong 5kg",
         kategori: "Sembako",
         harga: 69000,
         gambar: "assets/images/products/beras-kepompong-5kg.png",
@@ -28,10 +28,10 @@ const products = [
     },
     {
         kode: "GL004",
-        nama: "Gula Pasir 1kg",
+        nama: "Gula KTM 1kg",
         kategori: "Sembako",
         harga: 17000,
-        gambar: "assets/images/products/gula-1kg.jpg",
+        gambar: "assets/images/products/gula-ktm-1kg.png",
         stok: "Tersedia",
         promo: false
     },
@@ -40,7 +40,7 @@ const products = [
         nama: "Teh Pucuk 250 ml",
         kategori: "Minuman",
         harga: 5000,
-        gambar: "assets/images/products/gula-1kg.jpg",
+        gambar: "assets/images/products/teh-pucuk-350ml.jpg",
         stok: "Tersedia",
         promo: true
     }
