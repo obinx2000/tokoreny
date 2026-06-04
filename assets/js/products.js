@@ -54,7 +54,7 @@ const products = [
         promo: false
     },
     {
-        kode: "IM006",
+        kode: "IM007",
         nama: "Indomie Soto Lamongan 70gr",
         kategori: "Makanan Instan",
         harga: 3500,
@@ -62,7 +62,42 @@ const products = [
         stok: "Tersedia",
         promo: false
     },
-
+    {
+        kode: "IM008",
+        nama: "Indomie seblak 70gr",
+        kategori: "Makanan Instan",
+        harga: 3500,
+        gambar: "assets/images/products/mie-indomie-seblak-70gr.png",
+        stok: "Tersedia",
+        promo: false
+    },
+    {
+        kode: "IM009",
+        nama: "Indomie Rendang 70gr",
+        kategori: "Makanan Instan",
+        harga: 3500,
+        gambar: "assets/images/products/mie-indomie-rendang-70gr.png",
+        stok: "Tersedia",
+        promo: false
+    },
+    {
+        kode: "IM010",
+        nama: "Indomie Aceh 70gr",
+        kategori: "Makanan Instan",
+        harga: 3500,
+        gambar: "assets/images/products/mie-indomie-aceh-70gr.png",
+        stok: "Tersedia",
+        promo: false
+    },
+    {
+        kode: "IM010",
+        nama: "Indomie Kari 70gr",
+        kategori: "Makanan Instan",
+        harga: 3500,
+        gambar: "assets/images/products/mie-indomie-kari-70gr.png",
+        stok: "Tersedia",
+        promo: false
+    },
 
     {
         kode: "GL004",
